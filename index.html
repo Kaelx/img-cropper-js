@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Crop Image</title>
+
+    <link rel="stylesheet" href="./node_modules/cropperjs/dist/cropper.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="./assets/images/gojo-satoru-7-2.jpg" alt="img" id="image">
+            </div>
+            <div class="col-6">
+                <img src="" alt="Image Output" id="outputImg" class="m-5">
+            </div>
+        </div>
+
+        <button class="btn btn-primary mt-2" id="cropImgbtn">Crop Image</button>
+
+    </div>
+
+    <script src="./node_modules/cropperjs/dist/cropper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
