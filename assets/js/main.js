@@ -1,7 +1,7 @@
 const image = document.getElementById('image');
 const cropper = new Cropper(image, {
-    aspectRatio: 0,
-    viewMode: 3,
+    aspectRatio: 1,
+    viewMode: 1,
 });
 
 document.getElementById('cropImgbtn').addEventListener('click', function() {
